@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #efe4b0;
+    height: 15vh;
+    text-align: center;
+}
+.titre{
+    font-size: 32px;
+    color: #900910;
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+main{
+    width: 100%;
+    height: 522px;
+}
+aside{
+    float: left;
+    width: 15vw;
+    height: 75vh;
+    background-color: #b97a57;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin: 20px 0 0 50px;
+}
+li{
+    list-style-type: none;
+    width: 150px;
+    height: 40px;
+    background-color: #efe4b0;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+li:hover{
+    box-shadow: 2px 2px 2px black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+a:hover{
+    color: #846e02;
+}
+section{
+    
+    height: 100%;
+    background-color:white ;
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+}
+.message{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #93042c;
+    font-weight: 800;
+    font-style:italic ;
+}
+h2{
+    width: 500px;
+}
+
+footer{
+background-color: #efe4b0;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
